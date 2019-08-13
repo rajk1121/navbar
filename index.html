@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="nav-style.css">
+    <link rel="stylesheet" type="text/css" href="nav-tab.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="mynav">
+        <div id="mySidenav" class="sidenav">
+
+            <a id="sb-link" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a id="sb-link" href="#../home" onclick="closeNav()">HOME</a>
+            <a id="sb-link" href="#container3" onclick="closeNav()">ABOUT</a>
+            <a id="sb-link" href="#container4" onclick="closeNav()">CONTACT US</a>
+            <a id="sb-link" href="#container6" onclick="closeNav()">REVIEW</a>
+            <a id="sb-link" href="./property-grid" onclick="closeNav()">PROPERTY</a>
+            <a id="sb-link" href="#container6" onclick="closeNav()">AGENTS</a>
+        </div>
+
+        <!-- logo-md -->
+        <nav class="normal">
+            <a href="javascript:void(0)" class="opn-btn" onclick="openNav()">
+                <span class="glyphicon glyphicon-align-justify"></span>
+            </a>
+            <span class="green">Green</span><span class="black">Stones</span>
+        </nav>
+
+        <nav id="top">
+            <!-- <img class="logo" src="../images/logo.jpeg"> -->
+            <div class="logo">
+                <span class="green">Green</span>
+                <span class="black">Stones</span>
+            </div>
+            <ul style="margin-right: 5rem !important">
+
+                <li>
+                    <a href="../home" id="link">
+                        HOME
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="link">
+                        ABOUT
+                    </a>
+                </li>
+                <li>
+                    <a href="./property-grid" id="link">
+                        PROPERTY
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="link">
+                        AGENTS
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="link">
+                        CONTACT US
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="link">
+                        REVIEWS
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="./nav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
